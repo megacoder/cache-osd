@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh -n root@mx inotail -f /var/log/squid/access\* | osd_cat -p top -A left -i 200 -c '#e3f6f6' -l 5 -d 180 -s 1 "$@"
+ssh -n root@mx inotail -f /var/log/squid/access\* | osd_cat -p top -A left -i 200 -c '#e3f6f6' -l 3 -d 180 -s 1 "$@"
